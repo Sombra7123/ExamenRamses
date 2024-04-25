@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>One Piece - Landing Page</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <main class="personagens">
+      <div class="personagem">
+        <img
+          src="./src/img/personagem-tony-chopper.png"
+          class="imagem"
+          alt="Personagem Tony Chopper"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">4. Tony Chopper</h2>
+          <p class="descricao">
+            Este pequeño reno que ha adquirido la capacidad de cambiar de forma y pensar
+            como humanos después de comer la fruta Hito Hito no Mi. Chopper es un
+            valioso miembro de la tripulación de los Piratas de Sombrero de Paja, actuando
+            como médico de tripulación.
+            
+          </p>
+          <a class="li" href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece">
+            Ingresa a una pag&iacute;na oficial aqu&iacute;
+        </a>
+          <audio id="audioPlayer" src="choper.mp3"></audio>
+<button id="playButton">Play Audio</button>
+
+<script>
+document.getElementById('playButton').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer');
+    if (audio.paused) {
+        audio.play();
+        this.textContent = 'Para voz';
+    } else {
+        audio.pause();
+        this.textContent = 'Escuchar voz';
+    }
+});
+</script>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          src="./src/img/personagem-roronoa-zoro.png"
+          class="imagem"
+          alt="Personagem Roronoa Zoro"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">2. Roronoa Zoro</h2>
+          <p class="descricao">
+            Primer pirata (segundo miembro si contamos a Luffy) en unirse
+            a la tripulación de los Piratas de Sombrero de Paja, Zoro aceptó la invitación.
+            de Luffy después de que el capitán le salvara la vida.
+          </p>
+          <a class="li" href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece">
+            Ingresa a una pag&iacute;na oficial aqu&iacute;
+        </a>
+          <audio id="audioPlayer2" src="zodo.mp3"></audio>
+<button id="playButton2">Play Audio</button>
+
+<script>
+document.getElementById('playButton2').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer2');
+    if (audio.paused) {
+        audio.play();
+        this.textContent = 'Parar voz';
+    } else {
+        audio.pause();
+        this.textContent = 'Escuchar voz';
+    }
+});
+</script>
+        </div>
+      </div>
+
+      <div class="personagem selecionado">
+        <img
+          src="./src/img/personagem-monkey-d-luffy.png"
+          class="imagem"
+          alt="Personagem Monkey D.Luffy"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">1. Monkey D.Lufyy</h2>
+          <p class="descricao">
+            "Luffy Sombrero de Paja", como se le conoció, es el protagonista de
+            anime, y el fundador y capitán de la tripulación de Piratas del Sombrero.
+            Paja. Desde muy pequeño su mayor sueño ha sido encontrar algún día
+            el legendario tesoro de Gol D. Roger, para convertirse en el nuevo Rey de
+            Piratas.
+          </p>
+          <a class="li" href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece">
+            Ingresa a una pag&iacute;na oficial aqu&iacute;
+        </a>
+          <audio id="audioPlayer3" src="lufy.mp3"></audio>
+<button id="playButton3">Play Audio</button>
+
+<script>
+
+document.getElementById('playButton3').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer3');
+    if (audio.paused) {
+        audio.play();
+        this.textContent = 'Parar voz';
+    } else {
+        audio.pause();
+        this.textContent = 'Escuchar voz';
+    }
+});
+
+</script>
+
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          src="./src/img/personagem-nami.png"
+          class="imagem"
+          alt="Personagem Nami"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">3. Nami</h2>
+          <p class="descricao">
+            Nami, huérfana de guerra, fue adoptada cuando era niña por Bell-mère,
+            una mujer de la Marina. Mientras crecía junto a su hermana adoptiva.
+            Nojiko, Nami ya demostró su pasión por dibujar mapas, soñar
+            en un día haz un mapa del mundo entero.
+          </p>
+          <a class="li" href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece">
+            Ingresa a una pag&iacute;na oficial aqu&iacute;
+        </a>
+          <audio id="audioPlayer4" src="nami.mp3"></audio>
+<button id="playButton4">Play Audio</button>
+
+<script>
+document.getElementById('playButton4').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer4');
+    if (audio.paused) {
+        audio.play();
+        this.textContent = 'Parar voz';
+    } else {
+        audio.pause();
+        this.textContent = 'Escuchar voz';
+    }
+});
+</script>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          src="./src/img/personagem-sanji.png"
+          class="imagem"
+          alt="Personagem Sanji"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">5. Sanji</h2>
+          <p class="descricao">
+            También conocido como Sanji "Piernas negras", este pirata fue el quinto
+            unirse a la tripulación de Luffy. Sus acciones como pirata
+            arrojó la tercera mayor recompensa entre Chopper
+            , además de actuar como cocinero oficial del grupo.
+          </p>
+          <a class="li" href="https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece">
+            Ingresa a una pag&iacute;na oficial aqu&iacute;
+        </a>
+          <audio id="audioPlayer5" src="sanji.mp3"></audio>
+<button id="playButton5">Play Audio</button>
+
+<script>
+document.getElementById('playButton5').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer5');
+    if (audio.paused) {
+        audio.play();
+        this.textContent = 'Parar voz';
+    } else {
+        audio.pause();
+        this.textContent = 'Escuchar voz';
+    }
+});
+</script>
+        </div>
+      </div>
+    </main>
+    <ul class="botoes">
+      <li>
+        <button class="botao" onclick="desactivarBoton()">
+          <script>
+            function desactivarBoton() {
+                var respuesta = prompt("Quieres escuchar la voz del personage?");
+                if (respuesta !== "si" && respuesta == "no") {
+                    document.getElementById("playButton").disabled = true;
+                    
+                } 
+            }
+            </script>
+          <img src="./src/img/tripulacao-chopper.png" alt="" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao" onclick="desactivarBoton2()">
+          <script>
+            function desactivarBoton2() {
+                var respuesta2 = prompt("Quieres escuchar la voz del personage?");
+                if (respuesta2 !== "si" && respuesta2 == "no") {
+                    document.getElementById("playButton2").disabled = true;
+                    
+                } 
+            }
+            </script>
+          <img src="./src/img/tripulacao-zoro.png" alt="" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao selecionado" onclick="desactivarBoton3()">
+          <script>
+            function desactivarBoton3() {
+                var respuesta3 = prompt("Quieres escuchar la voz del personage?");
+                if (respuesta3 !== "si" && respuesta3 == "no") {
+                    document.getElementById("playButton3").disabled = true;
+                    
+                } 
+            }
+            </script>
+          <img src="./src/img/tripulacao-luffy.png" alt="" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao" onclick="desactivarBoton4()">
+          <script>
+            function desactivarBoton4() {
+                var respuesta4 = prompt("Quieres escuchar la voz del personage?");
+                if (respuesta4 !== "si" && respuesta4 == "no") {
+                    document.getElementById("playButton4").disabled = true;
+                    
+                } 
+            }
+            </script>
+          <img src="./src/img/tripulacao-nami.png" alt="" />
+        </button>
+      </li>
+
+      <li>
+        <button class="botao" onclick="desactivarBoton5()">
+          <script>
+            function desactivarBoton5() {
+                var respuesta5 = prompt("Quieres escuchar la voz del personage?");
+                if (respuesta5 !== "si" && respuesta5 == "no") {
+                    document.getElementById("playButton5").disabled = true;
+                    
+                } 
+            }
+            </script>
+          <img src="./src/img/tripulacao-sanji.png" alt="" />
+        </button>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+      <h3 class="si">Ramses Alexander Bernes Rubio</h3>
+    </ul>
+  </body>
+  <script src="./index.js"></script>
+</html>
